@@ -1,33 +1,59 @@
+# Cognitive Vulnerability in LLMs
 
-### *LLM Response witouth filters and it give dangerus information*  
-
-**Oscar Aguilera – Independent Researcher**  
+**Independent research by Oscar Aguilera / Zorro12**  
 2025
 
----
+> **Highlighted context — June 2026:** Public reporting around Anthropic Fable/Mythos and U.S. export-control concerns showed that conversational and contextual failures in frontier models are no longer only a laboratory issue, but a regulatory and geopolitical concern.
 
-## 📄 Overview
-
-This repository presents a vulnerability discovered in the behavior of multiple large language models (LLMs), in which seemingly normal and technically neutral conversations lead to the disclosure of highly dangerous operational content, was tested for user with high exposure to AI and undergoing a PTG (Post-Traumatic Growth) process.
-Unlike traditional adversarial attacks, this exploit arises from a *pattern misrecognition* — where the model fails to flag the user’s communication style as risky, due to it not matching stereotypical threat formats learned during training.
-
-## 📜 License
-
-Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)  
-Use freely for research, education, and ethical AI development. Commercial use requires permission.
+Spanish version: [README.es.md](./README.es.md)
 
 ---
 
-## 🧠 Contact
+## What this repository studies
 
-Created by: **Oscar Aguilera (alias "Zorro12")**  
-Contact: `oscar@aguilera.xyz`  
+This repository documents an independent investigation into **cognitive-contextual vulnerabilities in large language models (LLMs)**.
+
+The central idea:
+
+> **The exploit is not only in the prompt. It is in the pattern.**
+
+Some LLM failures may emerge not from a single malicious instruction, but from accumulated conversation, framing, semantic camouflage, decomposition, and trajectory misclassification.
 
 ---
 
-## ⚠️ Legal Note
+## Documents
 
-This repository contains **no operational instructions or replicable attack prompts**.  
-All examples and content have been redacted to prevent misuse.  
-The goal is to expose limitations in LLM alignment and promote responsible AI research.
+### Report
 
+- [Technical Report — Cognitive Vulnerability Assessment](./Report%20%5BCognitive%20Vulnerability%5D.md)
+
+### Hypothesis
+
+- [Hypothesis — Cognitive Vulnerability](./Hypothesis%20%5BCognitive%20Vulnerability%5D.md)
+
+---
+
+## Related public research
+
+- [Anthropic — Constitutional Classifiers: Defending against Universal Jailbreaks](https://www.anthropic.com/research/constitutional-classifiers)
+- [arXiv — Constitutional Classifiers](https://arxiv.org/abs/2501.18837)
+- [Anthropic — Many-shot jailbreaking](https://www.anthropic.com/research/many-shot-jailbreaking)
+- [NeurIPS — Many-shot Jailbreaking](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ea456e232efb72d261715e33ce25f208-Abstract-Conference.html)
+
+---
+
+## Repository position
+
+This repository does **not** claim priority over Anthropic or any other research lab.
+
+It documents an independent observation and conceptual formulation of a compatible risk class under the name:
+
+> **Cognitive Vulnerability**
+
+---
+
+## Safety note
+
+This repository contains **no operational instructions or replicable attack prompts**.
+
+The goal is to document limitations in LLM alignment and support responsible AI safety research.
