@@ -25,7 +25,7 @@ Algunas fallas en LLMs pueden surgir no desde una instrucción maliciosa única,
 
 ### Reporte
 
-- [Reporte Técnico — Evaluación de Vulnerabilidad Cognitiva](./Reporte%20%5BVulnerabilidad%20Cognitiva%5D.md)
+- [Reporte Técnico — Evaluación de Vulnerabilidad Cognitivahttps://github.com/TEF3-Team/Convergence-AI-Human/blob/main/Report%20%5BCognitive%20Vulnerability%5D.md
 
 ### Hipótesis
 
